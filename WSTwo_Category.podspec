@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WSTwo_Category"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "WSTwo_Category."
   s.description  = <<-DESC
 			this is WSTwo_Category.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/greatLock/WSTwo_Category.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "WSTwo_Category/WSTwo_Category/**/*.{h,m}"
+  s.source_files  = "WSTwo_Category/WSTwo_Categroy/**/*.{h,m}"
 
   s.framework  = "UIKit", "Foundation"
 
