@@ -15,6 +15,7 @@
 		5477C0D71E9B69FC00D5E2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5477C0D51E9B69FC00D5E2DA /* LaunchScreen.storyboard */; };
 		5477C0E21E9B69FC00D5E2DA /* WSTwo_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477C0E11E9B69FC00D5E2DA /* WSTwo_CategoryTests.m */; };
 		5477C0ED1E9B69FC00D5E2DA /* WSTwo_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477C0EC1E9B69FC00D5E2DA /* WSTwo_CategoryUITests.m */; };
+		ABEA1F47313C750228892837 /* libPods-WSTwo_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F595BDE971004BEEC87D0C6 /* libPods-WSTwo_Category.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F595BDE971004BEEC87D0C6 /* libPods-WSTwo_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSTwo_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4072F61CE53FC85F99890C10 /* Pods-WSTwo_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSTwo_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSTwo_Category/Pods-WSTwo_Category.debug.xcconfig"; sourceTree = "<group>"; };
 		5477C0C41E9B69FC00D5E2DA /* WSTwo_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSTwo_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5477C0C81E9B69FC00D5E2DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5477C0CA1E9B69FC00D5E2DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		5477C0E81E9B69FC00D5E2DA /* WSTwo_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSTwo_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5477C0EC1E9B69FC00D5E2DA /* WSTwo_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTwo_CategoryUITests.m; sourceTree = "<group>"; };
 		5477C0EE1E9B69FC00D5E2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903411E9E09B4AAF7C899D39 /* Pods-WSTwo_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSTwo_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSTwo_Category/Pods-WSTwo_Category.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEA1F47313C750228892837 /* libPods-WSTwo_Category.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				5477C0E01E9B69FC00D5E2DA /* WSTwo_CategoryTests */,
 				5477C0EB1E9B69FC00D5E2DA /* WSTwo_CategoryUITests */,
 				5477C0C51E9B69FC00D5E2DA /* Products */,
+				9A4FE61333A0EF98BAD695D2 /* Pods */,
+				6FEC5CDB0A5D4C09CA0EEEDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,23 @@
 			path = WSTwo_CategoryUITests;
 			sourceTree = "<group>";
 		};
+		6FEC5CDB0A5D4C09CA0EEEDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F595BDE971004BEEC87D0C6 /* libPods-WSTwo_Category.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A4FE61333A0EF98BAD695D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4072F61CE53FC85F99890C10 /* Pods-WSTwo_Category.debug.xcconfig */,
+				903411E9E09B4AAF7C899D39 /* Pods-WSTwo_Category.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5477C0F11E9B69FC00D5E2DA /* Build configuration list for PBXNativeTarget "WSTwo_Category" */;
 			buildPhases = (
+				23419631C48FB326BC9AB550 /* [CP] Check Pods Manifest.lock */,
 				5477C0C01E9B69FC00D5E2DA /* Sources */,
 				5477C0C11E9B69FC00D5E2DA /* Frameworks */,
 				5477C0C21E9B69FC00D5E2DA /* Resources */,
+				3482384ACF78E9963B855829 /* [CP] Embed Pods Frameworks */,
+				4CA0B9FD5DEF74388E6173F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +294,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23419631C48FB326BC9AB550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3482384ACF78E9963B855829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSTwo_Category/Pods-WSTwo_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CA0B9FD5DEF74388E6173F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSTwo_Category/Pods-WSTwo_Category-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5477C0C01E9B69FC00D5E2DA /* Sources */ = {
@@ -424,6 +499,7 @@
 		};
 		5477C0F21E9B69FC00D5E2DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4072F61CE53FC85F99890C10 /* Pods-WSTwo_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WSTwo_Category/Info.plist;
@@ -435,6 +511,7 @@
 		};
 		5477C0F31E9B69FC00D5E2DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903411E9E09B4AAF7C899D39 /* Pods-WSTwo_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WSTwo_Category/Info.plist;
