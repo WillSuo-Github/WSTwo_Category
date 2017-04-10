@@ -15,6 +15,7 @@
 		5477C0D71E9B69FC00D5E2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5477C0D51E9B69FC00D5E2DA /* LaunchScreen.storyboard */; };
 		5477C0E21E9B69FC00D5E2DA /* WSTwo_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477C0E11E9B69FC00D5E2DA /* WSTwo_CategoryTests.m */; };
 		5477C0ED1E9B69FC00D5E2DA /* WSTwo_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477C0EC1E9B69FC00D5E2DA /* WSTwo_CategoryUITests.m */; };
+		5477C0FD1E9B6CC200D5E2DA /* CTMediator+Bussiness_Two.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477C0FC1E9B6CC200D5E2DA /* CTMediator+Bussiness_Two.m */; };
 		ABEA1F47313C750228892837 /* libPods-WSTwo_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F595BDE971004BEEC87D0C6 /* libPods-WSTwo_Category.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		5477C0E81E9B69FC00D5E2DA /* WSTwo_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSTwo_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5477C0EC1E9B69FC00D5E2DA /* WSTwo_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTwo_CategoryUITests.m; sourceTree = "<group>"; };
 		5477C0EE1E9B69FC00D5E2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5477C0FB1E9B6CC200D5E2DA /* CTMediator+Bussiness_Two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Bussiness_Two.h"; sourceTree = "<group>"; };
+		5477C0FC1E9B6CC200D5E2DA /* CTMediator+Bussiness_Two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Bussiness_Two.m"; sourceTree = "<group>"; };
 		903411E9E09B4AAF7C899D39 /* Pods-WSTwo_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSTwo_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSTwo_Category/Pods-WSTwo_Category.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +111,7 @@
 		5477C0C61E9B69FC00D5E2DA /* WSTwo_Category */ = {
 			isa = PBXGroup;
 			children = (
+				5477C0FA1E9B6CA700D5E2DA /* WSTwo_Category */,
 				5477C0CA1E9B69FC00D5E2DA /* AppDelegate.h */,
 				5477C0CB1E9B69FC00D5E2DA /* AppDelegate.m */,
 				5477C0CD1E9B69FC00D5E2DA /* ViewController.h */,
@@ -145,6 +149,15 @@
 				5477C0EE1E9B69FC00D5E2DA /* Info.plist */,
 			);
 			path = WSTwo_CategoryUITests;
+			sourceTree = "<group>";
+		};
+		5477C0FA1E9B6CA700D5E2DA /* WSTwo_Category */ = {
+			isa = PBXGroup;
+			children = (
+				5477C0FB1E9B6CC200D5E2DA /* CTMediator+Bussiness_Two.h */,
+				5477C0FC1E9B6CC200D5E2DA /* CTMediator+Bussiness_Two.m */,
+			);
+			path = WSTwo_Category;
 			sourceTree = "<group>";
 		};
 		6FEC5CDB0A5D4C09CA0EEEDC /* Frameworks */ = {
@@ -348,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5477C0FD1E9B6CC200D5E2DA /* CTMediator+Bussiness_Two.m in Sources */,
 				5477C0CF1E9B69FC00D5E2DA /* ViewController.m in Sources */,
 				5477C0CC1E9B69FC00D5E2DA /* AppDelegate.m in Sources */,
 				5477C0C91E9B69FC00D5E2DA /* main.m in Sources */,
@@ -586,6 +600,7 @@
 				5477C0F31E9B69FC00D5E2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5477C0F41E9B69FC00D5E2DA /* Build configuration list for PBXNativeTarget "WSTwo_CategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +609,7 @@
 				5477C0F61E9B69FC00D5E2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5477C0F71E9B69FC00D5E2DA /* Build configuration list for PBXNativeTarget "WSTwo_CategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +618,7 @@
 				5477C0F91E9B69FC00D5E2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
