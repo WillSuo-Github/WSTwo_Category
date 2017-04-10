@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WSTwo_Category"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "WSTwo_Category."
   s.description  = <<-DESC
 			this is WSTwo_Category.
